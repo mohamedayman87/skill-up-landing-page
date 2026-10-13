@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUp - Learn New Skills. Build Your Future.</title>
+    <meta name="description" content="Online courses designed to help you learn practical skills easily. Empower your future with SkillUp.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Notification Banner -->
+    <div class="top-banner text-center py-2 text-white fw-medium position-relative">
+        <div class="container d-flex align-items-center justify-content-center gap-2">
+            <span class="badge bg-white text-dark rounded-pill px-2 py-1 fs-7">New</span>
+            <span>🔥 Get 50% discount on all popular courses this week!</span>
+            <a href="#courses" class="text-white text-decoration-underline ms-2 fw-semibold">Claim Offer</a>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <div class="brand-icon d-flex align-items-center justify-content-center text-white rounded-3">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <span class="brand-text fw-bold">Skill<span class="text-primary-color">Up</span></span>
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Why SkillUp?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center gap-3">
+                    <a href="#courses" class="btn btn-outline-primary-custom rounded-pill px-4 fw-semibold d-none d-sm-inline-block">Sign In</a>
+                    <a href="#courses" class="btn btn-primary-custom rounded-pill px-4 fw-semibold shadow-sm">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section position-relative overflow-hidden">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container position-relative z-1">
+            <div class="row align-items-center min-vh-75 py-5">
+                <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-start">
+                    <div class="hero-badge mb-3 inline-flex align-items-center gap-2 px-3 py-2 rounded-pill bg-primary-light text-primary-color fw-semibold">
+                        <i class="fa-solid fa-sparkles"></i> Practical Learning Platform
+                    </div>
+                    <h1 class="hero-title display-4 fw-extrabold text-slate mb-4">
+                        Learn New Skills. <br>
+                        <span class="gradient-text">Build Your Future.</span>
+                    </h1>
+                    <p class="hero-subtitle text-muted lead mb-4 pe-lg-4">
+                        Online courses designed to help you learn practical skills بسهولة. Gain real-world knowledge with step-by-step guidance from expert instructors.
+                    </p>
+                    
+                    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3 mb-5">
+                        <a href="#courses" class="btn btn-primary-custom btn-lg rounded-pill px-4 py-3 fw-semibold shadow-lg d-flex align-items-center justify-content-center gap-2">
+                            <span>Explore Courses</span>
+                            <i class="fa-solid fa-arrow-right fs-6"></i>
+                        </a>
+                        <a href="#about" class="btn btn-light-custom btn-lg rounded-pill px-4 py-3 fw-semibold border d-flex align-items-center justify-content-center gap-2">
+                            <i class="fa-solid fa-circle-play text-primary-color fs-5"></i>
+                            <span>Why SkillUp?</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats -->
+                    <div class="hero-stats pt-4 border-top d-flex align-items-center justify-content-center justify-content-lg-start gap-4">
+                        <div>
+                            <h3 class="fw-bold mb-0 text-slate">15K+</h3>
+                            <p class="text-muted small mb-0">Active Students</p>
+                        </div>
+                        <div class="vr opacity-25"></div>
+                        <div>
+                            <h3 class="fw-bold mb-0 text-slate">120+</h3>
+                            <p class="text-muted small mb-0">Practical Courses</p>
+                        </div>
+                        <div class="vr opacity-25"></div>
+                        <div>
+                            <h3 class="fw-bold mb-0 text-slate">4.9★</h3>
+                            <p class="text-muted small mb-0">Student Rating</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-visual position-relative">
+                        <!-- Main Illustration Card -->
+                        <div class="hero-main-card shadow-2xl rounded-4 overflow-hidden position-relative border">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80" alt="Students learning online" class="img-fluid w-100 object-fit-cover">
+                            
+                            <!-- Video Play Overlay Badge -->
+                            <div class="hero-play-overlay">
+                                <a href="#courses" class="play-btn rounded-circle d-flex align-items-center justify-content-center shadow-lg">
+                                    <i class="fa-solid fa-play text-primary-color"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Floating Glass Cards -->
+                        <div class="floating-card float-1 p-3 rounded-4 bg-white shadow-lg d-flex align-items-center gap-3">
+                            <div class="icon-box bg-success-light text-success rounded-3 p-3 fs-4">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1 text-slate">Practical Certificate</h6>
+                                <p class="text-muted small mb-0">Recognized worldwide</p>
+                            </div>
+                        </div>
+
+                        <div class="floating-card float-2 p-3 rounded-4 bg-white shadow-lg d-flex align-items-center gap-3">
+                            <div class="avatar-group d-flex">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" class="rounded-circle border border-2 border-white" width="36" height="36" alt="Student">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" class="rounded-circle border border-2 border-white ms-n2" width="36" height="36" alt="Student">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" class="rounded-circle border border-2 border-white ms-n2" width="36" height="36" alt="Student">
+                            </div>
+                            <div>
+                                <p class="fw-bold mb-0 text-slate small">Join 15,000+ Learners</p>
+                                <div class="rating-stars text-warning fs-7">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section: Why SkillUp? -->
+    <section id="about" class="py-6 bg-slate-50 position-relative">
+        <div class="container py-4">
+            <div class="text-center max-w-xl mx-auto mb-5">
+                <span class="text-primary-color fw-bold text-uppercase tracking-wider small">The SkillUp Advantage</span>
+                <h2 class="display-6 fw-bold text-slate mt-2 mb-3">Why SkillUp?</h2>
+                <p class="text-muted">We provide an intuitive platform tailored to accelerate your learning journey with maximum efficiency and real-world results.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Point 1 -->
+                <div class="col-md-4">
+                    <div class="feature-card p-4 rounded-4 bg-white shadow-sm border h-100 transition-all hover-lift">
+                        <div class="feature-icon-wrapper mb-4 rounded-4 d-inline-flex align-items-center justify-content-center text-primary-color bg-primary-light">
+                            <i class="fa-solid fa-laptop-code fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold text-slate mb-3">Practical Courses</h4>
+                        <p class="text-muted mb-0">Learn by doing. Our courses focus on hands-on projects, real-world case studies, and practical skills you can apply immediately in your career.</p>
+                        <div class="mt-4 pt-3 border-top d-flex align-items-center gap-2 text-primary-color fw-semibold fs-7">
+                            <span>Real-world Projects</span>
+                            <i class="fa-solid fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Point 2 -->
+                <div class="col-md-4">
+                    <div class="feature-card p-4 rounded-4 bg-white shadow-sm border h-100 transition-all hover-lift">
+                        <div class="feature-icon-wrapper mb-4 rounded-4 d-inline-flex align-items-center justify-content-center text-primary-color bg-primary-light">
+                            <i class="fa-solid fa-clock-rotate-left fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold text-slate mb-3">Flexible Learning</h4>
+                        <p class="text-muted mb-0">Study at your own pace anytime, anywhere. Enjoy lifetime access to all course materials on mobile, tablet, or desktop devices.</p>
+                        <div class="mt-4 pt-3 border-top d-flex align-items-center gap-2 text-primary-color fw-semibold fs-7">
+                            <span>24/7 Unlimited Access</span>
+                            <i class="fa-solid fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Point 3 -->
+                <div class="col-md-4">
+                    <div class="feature-card p-4 rounded-4 bg-white shadow-sm border h-100 transition-all hover-lift">
+                        <div class="feature-icon-wrapper mb-4 rounded-4 d-inline-flex align-items-center justify-content-center text-primary-color bg-primary-light">
+                            <i class="fa-solid fa-wand-magic-sparkles fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold text-slate mb-3">Simple Experience</h4>
+                        <p class="text-muted mb-0">Enjoy a clean, distraction-free interface designed for seamless navigation. Focus entirely on absorbing knowledge without clutter.</p>
+                        <div class="mt-4 pt-3 border-top d-flex align-items-center gap-2 text-primary-color fw-semibold fs-7">
+                            <span>Intuitive & Clean UI</span>
+                            <i class="fa-solid fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses Section -->
+    <section id="courses" class="py-6 position-relative">
+        <div class="container py-4">
+            <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between mb-5">
+                <div>
+                    <span class="text-primary-color fw-bold text-uppercase tracking-wider small">Explore Catalog</span>
+                    <h2 class="display-6 fw-bold text-slate mt-2 mb-0">Popular Courses</h2>
+                </div>
+                <div class="mt-3 mt-md-0">
+                    <div class="course-filters d-flex gap-2 p-1 bg-slate-100 rounded-pill">
+                        <button class="btn btn-sm rounded-pill px-3 py-2 fw-semibold filter-btn active" data-filter="all">All</button>
+                        <button class="btn btn-sm rounded-pill px-3 py-2 fw-semibold filter-btn" data-filter="marketing">Marketing</button>
+                        <button class="btn btn-sm rounded-pill px-3 py-2 fw-semibold filter-btn" data-filter="business">Business</button>
+                        <button class="btn btn-sm rounded-pill px-3 py-2 fw-semibold filter-btn" data-filter="languages">Languages</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Course 1: Digital Marketing -->
+                <div class="col-lg-4 col-md-6 course-item" data-category="marketing">
+                    <div class="course-card rounded-4 bg-white border shadow-sm overflow-hidden h-100 d-flex flex-column transition-all hover-lift">
+                        <div class="course-thumb position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Digital Marketing" class="img-fluid w-100 course-img">
+                            <div class="course-badge position-absolute top-0 start-0 m-3 px-3 py-1 rounded-pill bg-primary-color text-white fw-semibold fs-7 shadow-sm">
+                                Popular
+                            </div>
+                            <button class="btn btn-light rounded-circle position-absolute top-0 end-0 m-3 shadow-sm favorite-btn" aria-label="Favorite">
+                                <i class="fa-regular fa-heart text-slate"></i>
+                            </button>
+                        </div>
+                        <div class="course-content p-4 d-flex flex-column flex-grow-1">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="badge bg-primary-light text-primary-color fw-medium px-2 py-1 rounded-2">Marketing</span>
+                                <div class="rating d-flex align-items-center gap-1 text-warning fs-7 fw-semibold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate">4.9</span>
+                                    <span class="text-muted fw-normal">(1,240)</span>
+                                </div>
+                            </div>
+                            
+                            <h4 class="course-title fw-bold text-slate mb-2">Digital Marketing</h4>
+                            <p class="text-muted fs-7 mb-4">Master social media ads, SEO, content strategy, and data analytics to grow any business online.</p>
+
+                            <div class="mt-auto pt-3 border-top d-flex align-items-center justify-content-between">
+                                <div class="course-meta d-flex align-items-center gap-3 text-muted fs-7">
+                                    <span><i class="fa-regular fa-clock me-1"></i> 12 Hours</span>
+                                    <span><i class="fa-solid fa-book-open me-1"></i> 24 Lessons</span>
+                                </div>
+                                <button class="btn btn-outline-primary-custom btn-sm rounded-pill px-3 fw-semibold enroll-btn" data-title="Digital Marketing" data-price="$49.99">
+                                    Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2: Excel for Beginners -->
+                <div class="col-lg-4 col-md-6 course-item" data-category="business">
+                    <div class="course-card rounded-4 bg-white border shadow-sm overflow-hidden h-100 d-flex flex-column transition-all hover-lift">
+                        <div class="course-thumb position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Excel for Beginners" class="img-fluid w-100 course-img">
+                            <div class="course-badge position-absolute top-0 start-0 m-3 px-3 py-1 rounded-pill bg-success text-white fw-semibold fs-7 shadow-sm">
+                                Beginner Friendly
+                            </div>
+                            <button class="btn btn-light rounded-circle position-absolute top-0 end-0 m-3 shadow-sm favorite-btn" aria-label="Favorite">
+                                <i class="fa-regular fa-heart text-slate"></i>
+                            </button>
+                        </div>
+                        <div class="course-content p-4 d-flex flex-column flex-grow-1">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="badge bg-success-light text-success fw-medium px-2 py-1 rounded-2">Business & Data</span>
+                                <div class="rating d-flex align-items-center gap-1 text-warning fs-7 fw-semibold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate">4.8</span>
+                                    <span class="text-muted fw-normal">(890)</span>
+                                </div>
+                            </div>
+                            
+                            <h4 class="course-title fw-bold text-slate mb-2">Excel for Beginners</h4>
+                            <p class="text-muted fs-7 mb-4">Learn essential spreadsheet formulas, data analysis, VLOOKUP, and pivot tables step-by-step.</p>
+
+                            <div class="mt-auto pt-3 border-top d-flex align-items-center justify-content-between">
+                                <div class="course-meta d-flex align-items-center gap-3 text-muted fs-7">
+                                    <span><i class="fa-regular fa-clock me-1"></i> 8 Hours</span>
+                                    <span><i class="fa-solid fa-book-open me-1"></i> 18 Lessons</span>
+                                </div>
+                                <button class="btn btn-outline-primary-custom btn-sm rounded-pill px-3 fw-semibold enroll-btn" data-title="Excel for Beginners" data-price="$39.99">
+                                    Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 3: English Conversation -->
+                <div class="col-lg-4 col-md-6 course-item" data-category="languages">
+                    <div class="course-card rounded-4 bg-white border shadow-sm overflow-hidden h-100 d-flex flex-column transition-all hover-lift">
+                        <div class="course-thumb position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80" alt="English Conversation" class="img-fluid w-100 course-img">
+                            <div class="course-badge position-absolute top-0 start-0 m-3 px-3 py-1 rounded-pill bg-info text-white fw-semibold fs-7 shadow-sm">
+                                Top Rated
+                            </div>
+                            <button class="btn btn-light rounded-circle position-absolute top-0 end-0 m-3 shadow-sm favorite-btn" aria-label="Favorite">
+                                <i class="fa-regular fa-heart text-slate"></i>
+                            </button>
+                        </div>
+                        <div class="course-content p-4 d-flex flex-column flex-grow-1">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="badge bg-info-light text-info fw-medium px-2 py-1 rounded-2">Languages</span>
+                                <div class="rating d-flex align-items-center gap-1 text-warning fs-7 fw-semibold">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="text-slate">4.95</span>
+                                    <span class="text-muted fw-normal">(1,580)</span>
+                                </div>
+                            </div>
+                            
+                            <h4 class="course-title fw-bold text-slate mb-2">English Conversation</h4>
+                            <p class="text-muted fs-7 mb-4">Speak fluent English with confidence through interactive real-life dialogues and pronunciation drills.</p>
+
+                            <div class="mt-auto pt-3 border-top d-flex align-items-center justify-content-between">
+                                <div class="course-meta d-flex align-items-center gap-3 text-muted fs-7">
+                                    <span><i class="fa-regular fa-clock me-1"></i> 15 Hours</span>
+                                    <span><i class="fa-solid fa-book-open me-1"></i> 30 Lessons</span>
+                                </div>
+                                <button class="btn btn-outline-primary-custom btn-sm rounded-pill px-3 fw-semibold enroll-btn" data-title="English Conversation" data-price="$44.99">
+                                    Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-6 bg-slate-50 position-relative">
+        <div class="container py-4">
+            <div class="text-center max-w-xl mx-auto mb-5">
+                <span class="text-primary-color fw-bold text-uppercase tracking-wider small">Student Feedback</span>
+                <h2 class="display-6 fw-bold text-slate mt-2 mb-3">What Our Students Say</h2>
+                <p class="text-muted">Hear directly from learners who transformed their skills and career prospects with SkillUp.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Testimonial 1 -->
+                <div class="col-lg-6">
+                    <div class="testimonial-card p-4 p-md-5 rounded-4 bg-white border shadow-sm h-100 position-relative">
+                        <div class="quote-icon position-absolute top-0 end-0 m-4 text-primary-light opacity-50">
+                            <i class="fa-solid fa-quote-right display-3"></i>
+                        </div>
+                        <div class="rating-stars text-warning mb-3 fs-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text text-slate fs-5 mb-4 position-relative z-1">
+                            "SkillUp completely changed how I learn! The practical focus allowed me to master Digital Marketing and land my first freelance client within 3 weeks."
+                        </p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" alt="Sara Ahmed" class="rounded-circle object-fit-cover shadow-sm" width="56" height="56">
+                            <div>
+                                <h5 class="fw-bold text-slate mb-0">Sara Ahmed</h5>
+                                <span class="text-muted small">Marketing Specialist • Verified Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col-lg-6">
+                    <div class="testimonial-card p-4 p-md-5 rounded-4 bg-white border shadow-sm h-100 position-relative">
+                        <div class="quote-icon position-absolute top-0 end-0 m-4 text-primary-light opacity-50">
+                            <i class="fa-solid fa-quote-right display-3"></i>
+                        </div>
+                        <div class="rating-stars text-warning mb-3 fs-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="testimonial-text text-slate fs-5 mb-4 position-relative z-1">
+                            "Super clean interface and straightforward lessons! The Excel for Beginners course helped me automate my daily work tasks easily."
+                        </p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="Mohamed Hassan" class="rounded-circle object-fit-cover shadow-sm" width="56" height="56">
+                            <div>
+                                <h5 class="fw-bold text-slate mb-0">Mohamed Hassan</h5>
+                                <span class="text-muted small">Data Analyst • Verified Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-6 position-relative">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <!-- Left Info Column -->
+                <div class="col-lg-5">
+                    <span class="text-primary-color fw-bold text-uppercase tracking-wider small">Get In Touch</span>
+                    <h2 class="display-6 fw-bold text-slate mt-2 mb-4">Have Questions? Let’s Talk!</h2>
+                    <p class="text-muted mb-5">Whether you need guidance choosing the right course or have questions about SkillUp, our team is always ready to assist you.</p>
+
+                    <div class="contact-info-list d-flex flex-column gap-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="contact-icon bg-primary-light text-primary-color rounded-4 p-3 fs-5">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-slate">Email Us</h6>
+                                <p class="text-muted mb-0">support@skillup.com</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="contact-icon bg-primary-light text-primary-color rounded-4 p-3 fs-5">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-slate">24/7 Support</h6>
+                                <p class="text-muted mb-0">+1 (800) 123-4567</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="contact-icon bg-primary-light text-primary-color rounded-4 p-3 fs-5">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-slate">Global Hub</h6>
+                                <p class="text-muted mb-0">Cairo & Online Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Contact Form Column -->
+                <div class="col-lg-7">
+                    <div class="contact-form-card p-4 p-md-5 rounded-4 bg-white border shadow-lg">
+                        <h3 class="fw-bold text-slate mb-2">Send us a Message</h3>
+                        <p class="text-muted small mb-4">Fill out the form below and we will get back to you within 24 hours.</p>
+                        
+                        <form id="contactForm" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contactName" class="form-label fw-semibold text-slate fs-7">Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-slate-50 border-end-0 text-muted"><i class="fa-regular fa-user"></i></span>
+                                        <input type="text" class="form-control bg-slate-50 border-start-0 py-2" id="contactName" placeholder="Your Full Name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="contactEmail" class="form-label fw-semibold text-slate fs-7">Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-slate-50 border-end-0 text-muted"><i class="fa-regular fa-envelope"></i></span>
+                                        <input type="email" class="form-control bg-slate-50 border-start-0 py-2" id="contactEmail" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="contactMessage" class="form-label fw-semibold text-slate fs-7">Message</label>
+                                    <textarea class="form-control bg-slate-50 py-2" id="contactMessage" rows="4" placeholder="How can we help you?" required></textarea>
+                                </div>
+
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary-custom w-100 py-3 rounded-pill fw-semibold shadow d-flex align-items-center justify-content-center gap-2" id="submitBtn">
+                                        <span>Send Message</span>
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-slate text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4">
+                    <a class="d-flex align-items-center gap-2 text-white text-decoration-none mb-3" href="#">
+                        <div class="brand-icon d-flex align-items-center justify-content-center text-white rounded-3">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <span class="brand-text fw-bold fs-4">SkillUp</span>
+                    </a>
+                    <p class="text-white-50 small pe-lg-4">
+                        Empowering practical learning for students worldwide. Master key skills easily and boost your future career.
+                    </p>
+                    <div class="d-flex gap-3 text-white-50 fs-5 mt-3">
+                        <a href="#" class="text-white-50 hover-white"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-white-50 hover-white"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-white-50 hover-white"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="text-white-50 hover-white"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h6 class="fw-bold mb-3">Navigation</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small text-white-50">
+                        <li><a href="#hero" class="text-white-50 text-decoration-none hover-white">Home</a></li>
+                        <li><a href="#about" class="text-white-50 text-decoration-none hover-white">Why SkillUp?</a></li>
+                        <li><a href="#courses" class="text-white-50 text-decoration-none hover-white">Popular Courses</a></li>
+                        <li><a href="#testimonials" class="text-white-50 text-decoration-none hover-white">Testimonials</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h6 class="fw-bold mb-3">Popular Topics</h6>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small text-white-50">
+                        <li><a href="#courses" class="text-white-50 text-decoration-none hover-white">Digital Marketing</a></li>
+                        <li><a href="#courses" class="text-white-50 text-decoration-none hover-white">Excel Basics</a></li>
+                        <li><a href="#courses" class="text-white-50 text-decoration-none hover-white">English Speaking</a></li>
+                        <li><a href="#courses" class="text-white-50 text-decoration-none hover-white">Data Analytics</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Stay Updated</h6>
+                    <p class="text-white-50 small mb-3">Subscribe to get notified about new practical courses and discount offers.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control rounded-start-pill border-0 px-3" placeholder="Enter your email">
+                        <button class="btn btn-primary-custom rounded-end-pill px-4" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary pt-4 text-center text-white-50 small d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+                <p class="mb-0">&copy; 2026 SkillUp. All rights reserved.</p>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a>
+                    <a href="#" class="text-white-50 text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="successToast" class="toast align-items-center text-white bg-success border-0 shadow-lg" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-circle-check fs-5"></i>
+                    <span id="toastMessage">Thank you! Your message has been sent successfully.</span>
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Modal -->
+    <div class="modal fade" id="courseModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow-2xl">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-slate" id="modalCourseTitle">Course Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 text-center">
+                    <div class="modal-icon bg-primary-light text-primary-color rounded-circle d-inline-flex align-items-center justify-content-center p-4 mb-3 fs-1">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <h4 class="fw-bold text-slate mb-2" id="modalCourseName">Digital Marketing</h4>
+                    <p class="text-muted mb-4">Start learning today with instant access to all video lessons, resources, and community chat.</p>
+                    <div class="p-3 bg-slate-50 rounded-3 mb-4 d-flex justify-content-between align-items-center">
+                        <span class="fw-medium text-muted">Enrollment Fee:</span>
+                        <span class="fs-4 fw-bold text-primary-color" id="modalCoursePrice">$49.99</span>
+                    </div>
+                    <button type="button" class="btn btn-primary-custom w-100 py-3 rounded-pill fw-semibold shadow" id="confirmEnrollBtn">
+                        Confirm & Access Course
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
